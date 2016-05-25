@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="top">15dp</dimen>
+    <dimen name="btnTop">50dp</dimen>
+    <dimen name="elevacion_actionbar">4dp</dimen>
+    <dimen name="margin_editeText">10dp</dimen>
+    <dimen name="altoPicker">210dp</dimen>
+    <dimen name="sizeTituloEdit">25sp</dimen>
+    <dimen name="sizeNameEdit">20sp</dimen>
+    <dimen name="sizeText">16sp</dimen>
+</resources>

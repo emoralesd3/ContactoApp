@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="es.esy.elvinmorales48.contactoapp.DetalleContacto">
+
+    <include
+        android:id="@+id/miActionBar1"
+        layout="@layout/actionbar"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvEtiquetaTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvTitulo"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/sizeTituloEdit"
+                android:layout_marginTop="@dimen/top"/>
+
+            <TextView
+                android:id="@+id/tvNameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvPruebaName"
+                android:textSize="@dimen/sizeNameEdit"
+                android:layout_marginLeft="@dimen/margin_editeText"
+                android:layout_marginTop="@dimen/margin_editeText"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/margin_editeText"
+                android:layout_marginTop="@dimen/margin_editeText">
+
+                <TextView
+                    android:id="@+id/tvEtiquetaFecha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvFechaNac"
+                    android:textSize="@dimen/sizeText"/>
+
+                <TextView
+                    android:id="@+id/tvFechaEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvPruebaFechaNac"
+                    android:textSize="@dimen/sizeText"
+                    android:layout_marginLeft="@dimen/margin_editeText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/margin_editeText"
+                android:layout_marginTop="@dimen/margin_editeText">
+
+                <TextView
+                    android:id="@+id/tvEtiquetaTel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvTel"
+                    android:textSize="@dimen/sizeText"/>
+
+                <TextView
+                    android:id="@+id/tvTelEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvPruebaTel"
+                    android:textSize="@dimen/sizeText"
+                    android:layout_marginLeft="@dimen/margin_editeText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/margin_editeText"
+                android:layout_marginTop="@dimen/margin_editeText">
+
+                <TextView
+                    android:id="@+id/tvEtiquetaEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvEmail"
+                    android:textSize="@dimen/sizeText"/>
+
+                <TextView
+                    android:id="@+id/tvEmailEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvPruebaEmail"
+                    android:textSize="@dimen/sizeText"
+                    android:layout_marginLeft="@dimen/margin_editeText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/margin_editeText"
+                android:layout_marginTop="@dimen/margin_editeText">
+
+                <TextView
+                    android:id="@+id/tvEtiquetaDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvDesc"
+                    android:textSize="@dimen/sizeText"/>
+
+                <TextView
+                    android:id="@+id/tvDescEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvPruebaDesc"
+                    android:textSize="@dimen/sizeText"
+                    android:lines="3"
+                    android:layout_marginLeft="@dimen/margin_editeText"
+                    android:layout_marginRight="@dimen/margin_editeText"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnEditarDatos"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="@string/btnEditarDatos"
+                android:layout_gravity="center_horizontal"
+                android:theme="@style/MiBotonRaized"
+                android:layout_marginTop="@dimen/top"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

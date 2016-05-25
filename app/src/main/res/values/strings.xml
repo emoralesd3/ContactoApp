@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ContactoApp</string>
+    <string name="etNombreCompleto">Nombre Completo</string>
+    <string name="etTelefono">Télefono</string>
+    <string name="etEmail">Email</string>
+    <string name="etDescripcion">Descripción Contacto</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="tvTitulo">Confirmar Datos</string>
+    <string name="tvFechaNac">Fecha Nacimiento:</string>
+    <string name="tvTel">Tel:</string>
+    <string name="tvEmail">Email:</string>
+    <string name="tvDesc">Descripcion:</string>
+    <string name="btnEditarDatos">Editar Datos</string>
+    <string name="tvPruebaName">Elvin Morales</string>
+    <string name="tvPruebaFechaNac">07/03/1995</string>
+    <string name="tvPruebaTel">34500054</string>
+    <string name="tvPruebaEmail">elvinmorales48@gmail.com</string>
+    <string name="tvPruebaDesc">Conocí a Elvin programando en la Universidad</string>
+</resources>
